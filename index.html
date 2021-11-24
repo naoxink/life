@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life</title>
+  <style>
+    body {
+      background-color: #F4F4F4;
+      font-family: sans-serif;
+    }
+    canvas#board {
+      border: 1px solid black;
+    }
+    code {
+      background-color: #DDD;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <p>Running: <span id="status-running">no</span></p>
+  <p>FPS: <span id="status-fps">0</span></p>
+  <canvas id="board"></canvas>
+  <p>While not running you can click cells to set the initial seed. Press <code>space</code> to start/pause.</p>
+  <script src="app.js"></script>
+</body>
+</html>
